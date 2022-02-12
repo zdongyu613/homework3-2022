@@ -112,7 +112,7 @@ nav a:focus{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #dddddd;
+  background-color: #B3B3B3;
 }
 
 .about,.clients,.method,.contact{
@@ -155,13 +155,9 @@ img{
   nav{
     padding-top: 35px;
     /*Requirement 11*/
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: end;
+    text-align: right;
   }
-  nav ul{
-    min-width: 700px
-  }
+
   nav li{
     margin-left: 5%;
     margin-right:0;
@@ -169,14 +165,15 @@ img{
   
   /* Requirements 12-15 here: */
   .skip:focus{
-    margin-left: 0;
-    margin-top: 20px;
+
   }
+
   .container{
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: repeat(4,300px);
   }
+
   .about,.method,.clients-image,.contact-image{
     grid-column: 3/span 2;
   }
